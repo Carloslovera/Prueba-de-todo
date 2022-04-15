@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 *{
-    
+  list-style: none; 
 }
 
 body{
@@ -17,9 +18,39 @@ p{
 }
 
 .lnb {
+
     float: right;
-    padding: 0px 0 0 0px;
-    height: 00px;
+    padding: 30px 0 0 0px;
+    height: 0px;
     vertical-align: top;
+}
+
+div p{
+    color: rgb(240, 127, 255);
+}
+
+.amarillo{
+    color: yellow;
+}
+
+.azul{
+    color: blue;
+}
+
+.rojo{
+    color: red;
+}
+
+div#contenedor strong {
+    color: blue;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.arial { 
+    font-family: 'Square Peg', cursive;
+    color: #070f0f;
+    font-size: 30px;
 }
 
