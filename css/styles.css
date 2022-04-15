@@ -13,8 +13,13 @@ h1{
     text-align: center;
 }
 
-p{
-    color: #a52a2a;
+h1:hover {
+    color: red;
+}
+
+p::before { 
+
+    content: ;
 }
 
 .lnb {
@@ -26,23 +31,23 @@ p{
 }
 
 div p{
-    color: rgb(240, 127, 255);
+    color: #008000;
 }
 
 .amarillo{
-    color: yellow;
+    color: #ffff00;
 }
 
 .azul{
-    color: blue;
+    color: #0000ff;
 }
 
 .rojo{
-    color: red;
+    color: #ff0000;
 }
 
 div#contenedor strong {
-    color: blue;
+    color: #ffa500;
     font-size: 20px;
     font-weight: 400;
     font-style: italic;
@@ -54,3 +59,10 @@ div#contenedor strong {
     font-size: 30px;
 }
 
+a:link {
+    color: blue;
+}
+
+a:visited { 
+    color: red;
+}
